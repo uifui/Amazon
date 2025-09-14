@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_rastreio"
+            android:icon="@drawable/ic_track"
+            android:title="Rastrear Encomenda" />
+
+        <item
+            android:id="@+id/nav_cotacao"
+            android:icon="@drawable/ic_quote"
+            android:title="Cotação de Frete" />
+
+        <item
+            android:id="@+id/nav_unidades"
+            android:icon="@drawable/ic_location"
+            android:title="Nossas Unidades" />
+
+        <item
+            android:id="@+id/nav_servicos"
+            android:icon="@drawable/ic_services"
+            android:title="Serviços" />
+
+        <item
+            android:id="@+id/nav_contato"
+            android:icon="@drawable/ic_contact"
+            android:title="Fale Conosco" />
+
+    </group>
+</menu>
