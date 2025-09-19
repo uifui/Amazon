@@ -13,4 +13,11 @@
         android:textColor="@color/blue"
         android:textSize="36sp"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="fill_vertical"
+        android:text="Daniel"
+        android:textColor="@color/blue"
+        android:textSize="36sp" />
 </FrameLayout>

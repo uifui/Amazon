@@ -38,6 +38,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
         setSupportActionBar(binding.toolbar)
 
+
+        fragmentManager = supportFragmentManager
+        openFragment(HomeFragment())
+
         val toggle = ActionBarDrawerToggle(
             this,
             binding.drawerLayout,
@@ -59,9 +63,6 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             }
             true
         }
-
-        fragmentManager = supportFragmentManager
-        openFragment(HomeFragment())
 
         binding.fab.setOnClickListener {
             Toast.makeText(this, "Categorias", Toast.LENGTH_SHORT).show()
